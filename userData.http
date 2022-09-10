@@ -1,0 +1,34 @@
+//Register API
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username": "Chandu",
+    "name": "chandra sekhar",
+    "password": "chandu123",
+    "gender": "male",
+    "location": "Vizag"
+}
+
+
+//Login API
+####
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Chandu",
+    "password": "chandu143"
+}
+
+
+//Change Password API
+####
+PUT http://localhost:3000/change-password
+Content-Type: application/json
+
+{
+    "username": "Chandu",
+    "oldPassword": "chandu123",
+    "newPassword": "chandu143"
+}
